@@ -1,0 +1,507 @@
+    *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Didot, serif, Calibri, serif;
+}
+
+
+/*-------------DEBUT GRAND ECRAN------------------------------*/
+@media screen and (min-width:960px){
+    h1{
+        font-size:2.5em;
+    }
+
+    p{
+    font-size:1em;
+    } 
+    
+    
+    
+    
+.wrapp{
+    padding: 0 20% 0 20%;
+    
+}
+
+
+
+/*-- DEBUT INTRO ---------------------------------------------------------------------*/  
+h1{
+    color:darkred;
+    margin:2% 0 3% 0;
+}
+
+
+.haut{
+    border-bottom: 1px solid darkred;
+    padding-bottom: .7%;
+    margin-top:2%;
+    margin-bottom: 3%;
+}
+/*-- FIN INTRO HEADER-----------------------------------------------------------------*/
+
+
+
+
+
+/*-- DEBUT ROTATION -------------------------------------------------------------------*/
+
+
+
+
+
+
+/*------DEBUT IMAGE------------------*/
+
+img{
+/*    padding:10px;*/
+  
+    border: 1px solid #CCC;
+/* box-shadow: 0px 0px 10px #BBB;*/
+ 
+    max-width: 100%;
+    width:100%;
+    position: relative;
+    
+    
+ 
+    }  
+
+img:hover{
+    box-shadow: 0px 0px 27px #BBB;
+}
+/*------fin IMAGE---------------------*/
+
+
+
+/*
+    
+.wrapper{
+border:1px solid red;
+ margin:0 auto;   
+}
+*/
+
+
+/*
+.box1{
+    margin:1%;
+    width:600px;
+    height:700px;
+    margin:0 auto;
+    border:1px solid black;
+}
+*/
+
+
+.contenair{ /*commande les 2 faces de la cartes*/
+ 
+top:0%;
+left:0%; 
+
+
+}
+
+
+.carte{
+max-width:320px;
+perspective:1000px;    
+}
+
+
+.carte:hover 
+
+
+.main{
+    transform: rotateY(180deg);
+    transform-origin:160px 0;
+}
+
+
+.carte, .devant, .arriere{ /* ! Controle le corps de la carte ! */
+     width:320px;
+     height: 480px;  
+    margin:0 auto; 
+   
+}
+
+
+
+.devant, .arriere{
+    backface-visibility: hidden;
+    position: absolute; 
+    margin:0px; 
+}
+
+
+.main{
+    transition: 0.3s;
+    transform-style: preserve-3d;
+}
+
+
+.devant{
+    transform: rotateY(0deg);
+    z-index: 2;     
+}
+
+
+.arriere{
+    transform: rotateY(180deg);
+    padding:0px;
+    color:white;
+}
+
+
+/*-- FIN ROTATION -------------------------------------------------------------------*/    
+
+
+
+
+
+
+/*-- DEBUT PARAGRAPHE BAS----------------------------------------------------------------*/
+.bas{
+  
+    border-top: 1px solid darkred;
+     padding-top: 1%;
+    margin-top:3%;
+    text-align: center;
+}
+/*-- FIN PARAGRAPHE BAS-------------------------------------------------------------------*/
+    
+    }
+/*-------------FIN GRAND ECRAN------------------------------*/
+
+
+
+
+
+/*-------------DEBUT ECRAN MOYEN------------------------------*/
+@media screen and (min-width:720px) and (max-width:959px){
+    h1{
+        font-size:3em;
+    }
+
+    p{
+    font-size:1.2em;
+    } 
+    
+    
+    
+    
+.wrapp{
+    padding:0% 10%;
+   
+}
+
+
+
+/*-- DEBUT INTRO ---------------------------------------------------------------------*/  
+h1{
+    color:darkred;
+   margin: 5% 0 10% 0;
+}
+
+
+.haut{
+    width:100%;
+    border-bottom: 1px solid darkred;
+    margin:9% 0 7% 0;
+    padding-bottom: 2%;
+}
+/*-- FIN INTRO HEADER-----------------------------------------------------------------*/
+
+
+
+
+
+/*-- DEBUT ROTATION -------------------------------------------------------------------*/
+
+
+/*------DEBUT IMAGE------------------*/
+
+img{
+/*    padding:10px;*/
+  
+    border: 1px solid #CCC;
+/* box-shadow: 0px 0px 10px #BBB;*/
+ 
+    max-width: 100%;
+    width:100%;
+    position: relative;
+
+ 
+    }  
+
+img:hover{
+    box-shadow: 0px 0px 27px #BBB;
+}
+/*------fin IMAGE---------------------*/
+
+
+
+/*
+    
+.wrapper{
+border:1px solid red;
+ margin:0 auto;   
+}
+*/
+
+
+
+
+.contenair{ /*commande les 2 faces de la cartes*/
+ 
+top:0%;
+left:0%; 
+margin:0% 0;
+
+}
+
+
+.carte{
+max-width:320px;
+perspective:1000px;    
+}
+
+
+.carte:hover 
+
+
+.main{
+    transform: rotateY(180deg);
+    transform-origin:160px 0;
+}
+
+
+.carte, .devant, .arriere{ /* ! Controle le corps de la carte ! */
+     width:320px;
+     height: 480px;  
+    margin:0 auto; 
+   
+}
+
+
+
+.devant, .arriere{
+    backface-visibility: hidden;
+    position: absolute; 
+    margin:0px; 
+}
+
+
+.main{
+    transition: 0.3s;
+    transform-style: preserve-3d;
+}
+
+
+.devant{
+    transform: rotateY(0deg);
+    z-index: 2;     
+}
+
+
+.arriere{
+    transform: rotateY(180deg);
+    padding:0px;
+    color:white;
+}
+
+
+/*-- FIN ROTATION -------------------------------------------------------------------*/    
+
+
+
+
+
+
+/*-- DEBUT PARAGRAPHE BAS----------------------------------------------------------------*/
+.bas{
+    border-top: 1px solid darkred;
+    padding-top: 2%;
+    
+    margin:7% 0 10% 0;
+}
+    
+    
+    
+    
+    
+}
+/*-------------FIN ECRAN MOYEN------------------------------*/
+
+
+
+
+
+/*-------------DEBUT ECRAN PETIT------------------------------*/
+@media screen and (max-width:719px){
+ 
+     h1{
+        font-size:2.1em;
+    }
+
+    p{
+    font-size:1em;
+    } 
+    
+    
+    
+    
+.wrapp{
+    padding:0% 3% 0% 3%;
+   
+}
+
+
+
+/*-- DEBUT INTRO ---------------------------------------------------------------------*/  
+h1{
+    color:darkred;
+    margin: 3% 2% 8% 2%;
+}
+
+
+.haut{
+    width:100%;
+    border-bottom: 1px solid darkred;
+    margin:9% 0 7% 0;
+    padding-bottom: 2%;
+}
+/*-- FIN INTRO HEADER-----------------------------------------------------------------*/
+
+
+
+
+
+/*-- DEBUT ROTATION -------------------------------------------------------------------*/
+
+
+/*------DEBUT IMAGE------------------*/
+
+img{
+/*    padding:10px;*/
+  
+    border: 1px solid #CCC;
+/* box-shadow: 0px 0px 10px #BBB;*/
+ 
+    max-width: 100%;
+    width:100%;
+    position: relative;
+
+ 
+    }  
+
+img:hover{
+    box-shadow: 0px 0px 27px #BBB;
+}
+/*------fin IMAGE---------------------*/
+
+
+
+/*
+    
+.wrapper{
+border:1px solid red;
+ margin:0 auto;   
+}
+*/
+
+
+/*
+.box1{
+    margin:1%;
+    width:600px;
+    height:700px;
+    margin:0 auto;
+    border:1px solid black;
+}
+
+*/
+
+.contenair{ /*commande les 2 faces de la cartes*/
+ 
+top:0%;
+left:0%; 
+margin:0% 0;
+
+}
+
+
+.carte{
+max-width:320px;
+perspective:1000px;    
+}
+
+
+.carte:hover 
+
+
+.main{
+    transform: rotateY(180deg);
+    transform-origin:160px 0;
+}
+
+
+.carte, .devant, .arriere{ /* ! Controle le corps de la carte ! */
+     width:320px;
+     height: 480px;  
+    margin:0 auto; 
+   
+}
+
+
+
+.devant, .arriere{
+    backface-visibility: hidden;
+    position: absolute; 
+    margin:0px; 
+}
+
+
+.main{
+    transition: 0.3s;
+    transform-style: preserve-3d;
+}
+
+
+.devant{
+    transform: rotateY(0deg);
+    z-index: 2;     
+}
+
+
+.arriere{
+    transform: rotateY(180deg);
+    padding:0px;
+    color:white;
+}
+
+
+/*-- FIN ROTATION -------------------------------------------------------------------*/    
+
+
+
+
+
+
+/*-- DEBUT PARAGRAPHE BAS----------------------------------------------------------------*/
+.bas{
+    border-top: 1px solid darkred;
+    padding-top: 2%;
+    
+    margin:7% 0 8% 0;
+}
+    
+    
+    
+    
+    
+    
+}
+ /*-------------FIN ECRAN PETIT------------------------------*/    

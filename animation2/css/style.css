@@ -1,0 +1,301 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Didot, serif, Calibri, serif
+}
+
+
+
+
+
+
+
+.un{
+    width:100%;
+    height: 100vh;
+    position: relative;
+    
+}
+
+
+
+/*---------- DEBUT ANIMA 1 : BLANC -------*/
+
+.blanc{
+    width:20%;
+    position: absolute;
+    background-color: white;
+   
+}
+
+
+.blanc{
+    animation: blanc 5s linear 1.5s 1 forwards normal;
+}
+
+@keyframes blanc {
+    from {
+left:-30%;
+         top:0;
+    bottom:0;
+    height: auto;
+    }
+    to{
+        left:0vw;
+         top:0;
+    bottom:0;
+    height: auto;
+    }
+}
+
+/*---------- FIN ANIMA 1 : BLANC-------*/
+
+
+
+
+
+
+
+
+/*---------- DEBUT ANIMA 2 : GRIS -------*/
+
+.gris{
+    width:80%;
+   
+    position: absolute;
+    background-color:lightgrey;
+   
+    
+}
+
+
+.gris{
+    animation: gris 5s linear 1.5s 1 forwards normal;
+}
+
+@keyframes gris {
+    from {
+left:120%;
+         top:0;
+    bottom:0;
+    height: auto;
+    }
+    to{
+        left:20vw;
+         top:0;
+    bottom:0;
+    height: auto;
+    }
+}
+
+/*---------- FIN ANIMA 2 : GRIS-------*/
+
+
+
+
+
+/*---------- DEBUT ANIMA 3 : PHOTO VERTICALE-------*/
+
+.deux{
+    max-height: 100%;
+    height: auto;
+    position: absolute;
+   
+}
+
+
+.deux{
+    animation: deux 8s linear 4s 1 forwards normal;
+}
+
+@keyframes deux {
+    from {
+        left:120%;
+        top:0;
+    }
+    to{
+        left:55vw;
+        top:0;
+    }
+}
+
+/*----------FIN ANIMA 3 : PHOTO VERTICALE-------*/
+
+
+
+
+/*----------DEBUT ANIMA 4 : PHOTO HORIZONTALE-------*/
+
+.trois{
+    width:30%;
+    height: auto;
+    position: absolute;    
+}
+
+
+.trois{
+    animation: trois 6s linear 7s 1 forwards normal;
+}
+
+@keyframes trois {
+    from {
+        left:-50%;
+        bottom:0;
+    }
+    to{
+        left:0;
+        bottom:0;
+    }
+}
+
+/*----------FIN ANIMA 4 : PHOTO HORIZONTALE-------*/
+
+
+
+
+
+
+/*----------DEBUT ANIMA 5 : h1 TITRE---------------*/
+.titre{
+   
+  font-size: 3em;
+    position: absolute;    
+}
+
+
+.titre{
+    animation: titre 7s linear 7s 1 forwards normal;
+}
+
+@keyframes titre {
+     from {
+        left:120%;
+        top:2vh;
+    }
+    to{
+        left:0vw;
+        top:2vh;
+         margin-left:1%;
+    }
+}
+
+
+
+/*----------FIN ANIMA 5 : h1 TITRE------------------*/
+
+
+/*----------DEBUT ANIMA 6 : p DESCRIPTION 1---------------*/
+.descri1{
+    position: absolute;    
+}
+
+
+.descri1{
+    animation: descri1 2s linear 10s 1 forwards normal;
+}
+
+@keyframes descri1 {
+    from {
+        left:-20%;
+       
+         top:28vh;
+    }
+    to{
+        left:25vw;
+       
+         top:28vh;
+    }
+}
+
+
+
+/*----------FIN ANIMA 6 : p DESCRIPTION 1-----------------*/
+
+/*----------DEBUT ANIMA 6 : p DESCRIPTION 2---------------*/
+.descri2{
+    position: absolute;
+     
+     
+}
+
+
+.descri2{
+    animation: descri2 2s linear 11s 1 forwards normal;
+}
+
+@keyframes descri2 {
+    from {
+        left:-20%;
+         top:35vh;
+       
+       
+    }
+    to{
+        left:25vw;
+         top:35vh;
+        
+        
+       
+        
+    }
+}
+
+
+
+/*----------FIN ANIMA 6 : p DESCRIPTION 2-----------------*/
+
+/*----------DEBUT ANIMA 6 : p DESCRIPTION 3---------------*/
+.descri3{
+    position: absolute;    
+}
+
+
+.descri3{
+    animation: descri3 2s linear 12s 1 forwards normal;
+}
+
+@keyframes descri3 {
+    from {
+        left:-20%;
+       
+         top:42vh;
+    }
+    to{
+        left:25vw;
+       
+         top:42vh;
+    }
+}
+
+
+
+/*----------FIN ANIMA 6 : p DESCRIPTION 3-----------------*/
+
+
+
+/*----------DEBUT ANIMA 7 : p SIGNATURE---------------*/
+.signature{
+   
+      color:grey;
+    position: absolute;  
+}
+
+
+.signature{
+    animation: signature 7s linear 7s 1 forwards normal;
+}
+
+@keyframes signature {
+     from {
+        left:120%;
+        top:10.6vh;
+    }
+    to{
+        left:0vw;
+        top:10.6vh;
+        margin-left:1%;
+    }
+}
+
+/*----------FIN ANIMA 7 : p DSIGNATURE---------------*/
